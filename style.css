@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    padding : 15px 0;
+    padding : auto;
     width: 100%;
     background-color: #1f1f1f;
     font-size: 31px;
@@ -22,7 +22,7 @@ nav, ul {
     justify-content: space-between;
 }
 
-li h1,ul a, .description p, .contact, .intro {
+li h1,ul a, .description, .contact, .intro, .skills {
     color: rgb(216, 216, 216)
 }
 
@@ -40,7 +40,7 @@ a{
     font-size: 1.5rem;
 }
 
-.blabla{
+.tabs{
     display: flex;
     justify-content: space-between;
     margin-left: 900px;
@@ -51,7 +51,7 @@ a{
     justify-content: space-around;
 }
 .intro{
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 2rem;
     word-spacing: 5px;
     letter-spacing: 2px;
@@ -65,14 +65,20 @@ a{
 
 .profile-image img{
     width:450px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
+.description{
+    margin-top: 10%;
+}
+
+.description legend{
+    margin-bottom: 75px;
+}
 .skills  { 
-    color: white;
     width : 20%;
     padding : 20px;  
-    
+    margin-top: 10%;
 }
 
 
