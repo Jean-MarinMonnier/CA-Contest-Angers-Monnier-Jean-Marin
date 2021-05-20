@@ -1,46 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+body {
+    background-color: #252627;
+    font-family: 'Merriweather Sans', sans-serif;
+}
 
 .container{
-    padding : 0 100px 0 100px;
-    
-}
-
-nav, ul {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+    padding: 0;
+    margin: auto;
+    max-width: 2300px;
 }
 
 .navbar {
-    background-color: #181818;
+    padding : 15px 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    font-size: 31px;
 }
-header h1, header a, .description p {
-    color: #707070;
+
+nav, ul {
+    display: flex;
+    justify-content: space-between;
 }
+
+li h1,ul a, .description p, .contact, .intro {
+    color: rgb(216, 216, 216)
+}
+
 li {
     list-style: none;
-    margin-left: 30px;
-    
+    margin-left: 30px; 
 }
 
+li :hover{
+    color: rgb(156, 82, 82);
+    text-decoration: none;
+}
 a{
     text-decoration: none;
-    font-size: .9rem;
-    position: relative;
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(-50%);
+    font-size: 1.5rem;
 }
 
-body {
-    background-color: #252627;
+.blabla{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 900px;
+}
+.intro_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.intro{
+    margin-top: 100px;
+    font-size: 2rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.JM{
+    font-size: 2.5rem;
+    color: rgb(156, 82, 82);
+}
+
+.profile-image img{
+    width:450px;
+    margin-top: 50px;
 }
 
 .skills  { 
@@ -50,15 +75,15 @@ body {
     
 }
 
-/* Structure des barres de progression */
+
 .skill_progress{
-    background-color: rgb(192, 192, 192); 
+    background-color: rgb(85, 85, 85); 
         width: 80%; 
         border-radius: 15px; 
 }
 
 .skill {
-    background-color: rgb(116, 194, 92); 
+    background-color: rgb(156, 82, 82); 
     color: white; 
     padding: 1%; 
     text-align: right; 

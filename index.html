@@ -8,63 +8,65 @@
     <title> Portfolio Jean-Marin </title>
 </head>
 
-<div class="container navbar">
-    <header>
-        <div class="name">
-            <h1> Jean-Marin </h1>
+<body>
+    <nav class="container">
+        <div class="navbar">
+            <ul>
+                <li> <h1>Jean-Marin</h1> </li>
+                <div class="blabla">
+                    <li><a href="description">Qui suis-je ?</a></li>
+                    <li><a href="skills">Compétences</a></li>
+                    <li><a href="works">Travaux</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+        
+        
+
+
+    <div class="intro_img">
+        <div class="intro">
+            <span class="text hello">Bonjour,</span> <br>
+            <span class="text">Je suis</span>
+            <span class="text JM"> Jean-Marin Monnier</span> <br>
+            <span class="text">Étudiant en DEV</span>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="description">Qui suis-je ?</a></li>
-                <li><a href="skills">Compétences</a></li>
-                <li><a href="works">Expérience</a></li>
-                <li><a href="contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-</div>
-
-<body>
-
-    <div class="intro">
-        <span>Bonjour,</span> <br>
-        <span>Je suis Jean-Marin,</span> <br>
-        <span>Développeur Junior</span>
+        <div class="profile-image">
+            <img src="img/photo.jpg" alt="">
+        </div>
     </div>
 
-    <div class="profile-image">
-        <img src="img/photo.png" alt="">
+    <div class="description">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
     </div>
 
-<div class="description">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-</div>
+    <div class="skills mx-auto">
+        <p> Python</p>
+        <div class="skill_progress">   
+            <div class="skill python"> 70%</div>
+        </div>
+            <p> HTML/CSS</p>
+        <div class="skill_progress">
+            <div class="skill html">70%</div>
+        </div>
+            <p>JAVA</p>
+        <div class="skill_progress">
+            <div class="skill java">30%</div>
+        </div>
+            <p> GIT</p>
+        <div class="skill_progress">
+            <div class="skill git">80%</div>
+        </div>
+        <p> SQL</p>
+        <div class="skill_progress">
+            <div class="skill SQL">50%</div>
+        </div>
+    </div>
 
-<div class="skills">
-    <p> Python</p>
-    <div class="skill_progress">   
-        <div class="skill python"> 70%</div>
-    </div>
-        <p> HTML/CSS</p>
-    <div class="skill_progress">
-        <div class="skill html">70%</div>
-    </div>
-        <p>JAVA</p>
-    <div class="skill_progress">
-        <div class="skill java">30%</div>
-    </div>
-        <p> GIT</p>
-    <div class="skill_progress">
-        <div class="skill git">80%</div>
-    </div>
-    <p> SQL</p>
-    <div class="skill_progress">
-        <div class="skill SQL">50%</div>
-    </div>
-</div>
-</body>
 
 <div class="works">
 
@@ -73,7 +75,7 @@
 <div class="contact">
     <form action="" method="POST" class="text-center w-25 mx-auto">
         <fieldset>
-            <legend> Contact
+            <legend> <h2>Contact</h2>
                 <input class="form-control mt-5" type="text" name="name" placeholder="Nom">
                 <input class="form-control mt-3" type="text" name="fullname" placeholder="Prénom">
                 <input class="form-control mt-3" type="text" name="mail" placeholder="Email">
@@ -83,3 +85,5 @@
         </fieldset>
     </form>
 </div>
+
+</body>
