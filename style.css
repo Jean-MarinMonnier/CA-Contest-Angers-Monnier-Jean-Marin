@@ -14,7 +14,7 @@ body {
     padding : auto;
     width: 100%;
     background-color: #1f1f1f;
-    font-size: 31px;
+    font-size: 40px;
 }
 
 nav, ul {
@@ -72,9 +72,10 @@ a{
     margin-top: 10%;
 }
 
-.description legend{
-    margin-bottom: 75px;
+.p-space{
+    margin-top: 75px;
 }
+
 .skills  { 
     width : 20%;
     padding : 20px;  
@@ -114,4 +115,9 @@ a{
 }
 .SQL {
     width : 50%;
+}
+
+.works{
+    color: rgb(216, 216, 216);
+    margin-top: 10%;
 }
