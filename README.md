@@ -1,1 +1,1 @@
-# CA---Contest---Angers---Monnier-Jean-Marin
+# CA-Contest-Angers-Monnier-Jean-Marin
