@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: #252627;
     font-family: 'Merriweather Sans', sans-serif;
@@ -22,7 +25,7 @@ nav, ul {
     justify-content: space-between;
 }
 
-li h1,ul a, .description, .contact, .intro, .skills, legend {
+li h1,ul a, .description, .contact, .intro, .skills, legend, footer {
     color: rgb(216, 216, 216)
 }
 
@@ -136,4 +139,17 @@ a{
 .work{
     margin-left: 25px;
     margin-right: 25px;
+}
+
+footer{
+    background-color: #1f1f1f;
+    padding : 20px;
+    font-size: .8rem;
+    margin-top: 3%;
+}
+
+footer span{
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }

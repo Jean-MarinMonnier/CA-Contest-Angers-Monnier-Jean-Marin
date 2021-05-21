@@ -14,10 +14,10 @@
             <ul>
                 <li> <h1>Portfolio</h1> </li>
                 <div class="tabs">
-                    <li><a href="description">Qui suis-je ?</a></li>
-                    <li><a href="skills">Compétences</a></li>
-                    <li><a href="works">Travaux</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#description">Qui suis-je ?</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#works">Travaux</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </div>
             </ul>
         </div>
@@ -41,7 +41,7 @@
 
 
            
-    <div class="description text-center">
+    <div class="description text-center" id="description">
         <legend class="text-center top-space"> <h2>Qui suis-je ? </h2></legend> 
         <p class="p-space">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -49,7 +49,7 @@
     </div>
         
 
-    <legend class="text-center top-space"> <h2>Compétences</h2></legend>
+    <legend class="text-center top-space" id="skills"> <h2>Compétences</h2></legend>
     <div class="skills mx-auto">
         <p class="p-space"> Python</p>
         <div class="skill_progress">   
@@ -74,30 +74,34 @@
     </div>
 
     
-    <legend class="text-center top-space"> <h2>Travaux</h2></legend>
+    <legend class="text-center top-space" id="works"> <h2>Travaux</h2></legend>
     <p class="p-space"></p>
     <div class="works"> 
         <div class="work">
-            <img src="img/1083Logo.png" alt="">
+            <img src="img/1083Logo.png" alt="image logo 1083">
         </div>
         <div class="work">
-            <img src="img/LVLogo.jpg" alt="">
+            <img src="img/LVLogo.jpg" alt="image Louis Vuitton">
         </div>
     </div>
     
 
-<div class="contact top-space">
-    <form action="" method="POST" class="text-center w-25 mx-auto">
-        <fieldset>
-            <legend> <h2>Contact</h2>
-                <input class="form-control mt-5" type="text" name="name" placeholder="Nom">
-                <input class="form-control mt-3" type="text" name="fullname" placeholder="Prénom">
-                <input class="form-control mt-3" type="text" name="mail" placeholder="Email">
-                <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="5" name="message" placeholder="Demande"></textarea>
-                <button class="btn btn-primary mt-3" type="submit" name="submit_form">Envoyer</button>
-            </legend>
-        </fieldset>
-    </form>
-</div>
+    <div class="contact top-space" id="contact">
+        <form action="" method="POST" class="text-center w-25 mx-auto">
+            <fieldset>
+                <legend> <h2>Contact</h2>
+                    <input class="form-control mt-5" type="text" name="name" placeholder="Nom">
+                    <input class="form-control mt-3" type="text" name="fullname" placeholder="Prénom">
+                    <input class="form-control mt-3" type="text" name="mail" placeholder="Email">
+                    <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="5" name="message" placeholder="Demande"></textarea>
+                    <button class="btn btn-primary mt-3" type="submit" name="submit_form">Envoyer</button>
+                </legend>
+            </fieldset>
+        </form>
+    </div>
 
+    <footer class="text-center">
+        <span> Mail : jeanmarin.monnierpro@gmail.com</span>
+        <span> Téléphone : 07 82 02 75 49</span>
+    </footer>
 </body>
