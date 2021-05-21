@@ -77,7 +77,7 @@ a{
 }
 
 .p-space{
-    margin-top: 75px;
+    margin-top: 75px !important;
 }
 
 .skills  { 
@@ -87,6 +87,8 @@ a{
 
 .skills p{
     margin-left: 10%;
+    margin-bottom: 0.5%;
+    margin-top: 3%;
 }
 
 .skill_progress{
