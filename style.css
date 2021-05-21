@@ -40,7 +40,7 @@ li {
     margin-left: 30px; 
 }
 ul{
-    width: 80%;
+    width: 90%;
 }
 li :hover{
     color: rgb(156, 82, 82);
@@ -67,6 +67,11 @@ a{
     color: white;
 }
 
+.description{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1rem;
+}
 .top-space{
     margin-top: 10%;
 }
@@ -79,7 +84,7 @@ a{
 .profile-image img{
     width: 25vw;
     height: auto;
-    margin-top: 100px;
+    margin-top: 25%;
 }
 
 .p-space{
@@ -166,4 +171,57 @@ footer span{
     margin-left: 50px;
     margin-right: 50px;
     
+}
+
+@media(max-width:1118px) {
+    a{
+        font-size: 1rem;
+    }
+    .navbar h1{
+        font-size: 1.5rem;
+        padding-top: 15%;
+    }
+    ul{
+        width:100%;
+    }
+    .intro{
+        font-size: 1.5rem;
+    }
+    .JM{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:760px) {
+    .JM{
+        font-size: 1.7rem;
+    }
+    .skills{
+        width: 50%;
+    }
+}
+
+@media(max-width:669px){
+    a{
+        font-size: .8rem;
+    }
+    .navbar h1{
+        font-size: 1.3rem;
+    }
+    .intro{
+        font-size: 1.3rem;
+    }
+    .JM{
+        font-size: 1.5rem;
+    }
+    .description{
+        font-size: .8rem;
+    }
+    footer{
+        font-size: .65rem;
+    }
+
 }
