@@ -1,120 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href = "style.css" rel = stylesheet>
-    <title> Portfolio Jean-Marin </title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href = "style.css" rel = stylesheet>
+        <title> Portfolio Jean-Marin </title>
+    </head>
 
-<body>
-    <!-- Navbar -->
-    <nav class="container">
-        <div class="navbar">
-            <ul class="parent-tabs">
-                <li class="portfolio"> <h1>Portfolio</h1> </li>
-                <li>
-                    <ul class="tabs">
-                        <li><a href="#description">Qui suis-je ?</a></li>
-                        <li><a href="#skills">Compétences</a></li>
-                        <li><a href="#works">Travaux</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </li>
-            </ul>
+    <body>
+        <!-- Navbar -->
+        <nav class="container">
+            <div class="navbar">
+                <ul class="parent-tabs">
+                    <li class="portfolio"> <h1>Portfolio</h1> </li>
+                    <li>
+                        <ul class="tabs">
+                            <li><a href="#description">Qui suis-je ?</a></li>
+                            <li><a href="#skills">Compétences</a></li>
+                            <li><a href="#works">Travaux</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            
+            
+
+        <!-- Texte d'introduction -->
+        <div class="intro_img">
+            <div class="intro">
+                <span class="text hello">Bonjour,</span> <br>
+                <span class="text">Je suis</span>
+                <span class="text JM"> Jean-Marin Monnier</span> <br>
+                <span class="text">Étudiant en développement</span>
+            </div>
+
+            <div class="profile-image">
+                <img src="img/photo.png" alt="photo de profil">    <!-- Photo de profil à modifier par la sienne-->
+            </div>
         </div>
-    </nav>
-        
-        
 
-    <!-- Texte d'introduction -->
-    <div class="intro_img">
-        <div class="intro">
-            <span class="text hello">Bonjour,</span> <br>
-            <span class="text">Je suis</span>
-            <span class="text JM"> Jean-Marin Monnier</span> <br>
-            <span class="text">Étudiant en développement</span>
+
+        <!-- Description de la personne -->
+        <div class="description text-center" id="description">
+            <h2 class="text-center top-space">Qui suis-je ? </h2>
+            <p class="p-space"></p>
+            <div class="border-desc">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </div>
+        </div>
+            
+        <!-- Présentation des compétences -->
+        <h2 class="text-center top-space" id="skills">Compétences</h2>
+        <div class="skills mx-auto">
+            <p class="p-space"> Python</p>
+            <div class="skill_progress">   
+                <div class="skill python"> 70%</div>
+            </div>
+                <p> HTML/CSS</p>
+            <div class="skill_progress">
+                <div class="skill html">70%</div>
+            </div>
+                <p>JAVA</p>
+            <div class="skill_progress">
+                <div class="skill java">30%</div>
+            </div>
+                <p> GIT</p>
+            <div class="skill_progress">
+                <div class="skill git">80%</div>
+            </div>
+            <p> SQL</p>
+            <div class="skill_progress">
+                <div class="skill SQL">50%</div>
+            </div>
         </div>
 
-        <div class="profile-image">
-            <img src="img/photo.png" alt="photo de profil">    <!-- Photo de profil à modifier par la sienne-->
-        </div>
-    </div>
-
-
-    <!-- Description de la personne -->
-    <div class="description text-center" id="description">
-        <h2 class="text-center top-space">Qui suis-je ? </h2>
+        <!-- Présentation des projets réalisés -->
+        <h2 class="text-center top-space" id="works">Travaux</h2>
         <p class="p-space"></p>
-        <div class="border-desc">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <div class="works"> 
+            <div class="work">
+                <a href = "index.html" target="_blank"><img src="img/gatlinger_logo.png" alt="image association Gatlinger"> </a>  <!-- Il faut remplacer "index.html" par les lien vers les projets -->
+            </div>
+            <div class="work">
+                <a href = "index.html" target="_blank"><img src="img/1083Logo.png" alt="image logo 1083"> </a>
+            </div>
+            <div class="work">
+                <a href = "index.html" target="_blank"> <img/LVLogo.jpg" alt="image Louis Vuitton"> </a>
+            </div>
         </div>
-    </div>
         
-    <!-- Présentation des compétences -->
-    <h2 class="text-center top-space" id="skills">Compétences</h2>
-    <div class="skills mx-auto">
-        <p class="p-space"> Python</p>
-        <div class="skill_progress">   
-            <div class="skill python"> 70%</div>
+        <!-- Formulaire de contact -->
+        <div class="contact top-space" id="contact">
+            <form action="index.html" method="POST" class="text-center w-25 mx-auto">
+                <fieldset>
+                    <legend> <h2>Contact</h2>
+                        <input class="form-control mt-5" type="text" name="name" placeholder="Nom">
+                        <input class="form-control mt-3" type="text" name="fullname" placeholder="Prénom">
+                        <input class="form-control mt-3" type="text" name="mail" placeholder="Email">
+                        <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="5" name="message" placeholder="Demande"></textarea>
+                        <button class="btn btn-primary mt-3" type="submit" name="submit_form">Envoyer</button>
+                    </legend>
+                </fieldset>
+            </form>
         </div>
-            <p> HTML/CSS</p>
-        <div class="skill_progress">
-            <div class="skill html">70%</div>
-        </div>
-            <p>JAVA</p>
-        <div class="skill_progress">
-            <div class="skill java">30%</div>
-        </div>
-            <p> GIT</p>
-        <div class="skill_progress">
-            <div class="skill git">80%</div>
-        </div>
-        <p> SQL</p>
-        <div class="skill_progress">
-            <div class="skill SQL">50%</div>
-        </div>
-    </div>
 
-    <!-- Présentation des projets réalisés -->
-    <h2 class="text-center top-space" id="works">Travaux</h2>
-    <p class="p-space"></p>
-    <div class="works"> 
-        <div class="work">
-            <a href = "index.html" target="_blank"><img src="img/gatlinger_logo.png" alt="image association Gatlinger"> </a>  <!-- Il faut remplacer "index.html" par les lien vers les projets -->
-        </div>
-        <div class="work">
-            <a href = "index.html" target="_blank"><img src="img/1083Logo.png" alt="image logo 1083"> </a>
-        </div>
-        <div class="work">
-            <a href = "index.html" target="_blank"> <img/LVLogo.jpg" alt="image Louis Vuitton"> </a>
-        </div>
-    </div>
-    
-    <!-- Formulaire de contact -->
-    <div class="contact top-space" id="contact">
-        <form action="index.html" method="POST" class="text-center w-25 mx-auto">
-            <fieldset>
-                <legend> <h2>Contact</h2>
-                    <input class="form-control mt-5" type="text" name="name" placeholder="Nom">
-                    <input class="form-control mt-3" type="text" name="fullname" placeholder="Prénom">
-                    <input class="form-control mt-3" type="text" name="mail" placeholder="Email">
-                    <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="5" name="message" placeholder="Demande"></textarea>
-                    <button class="btn btn-primary mt-3" type="submit" name="submit_form">Envoyer</button>
-                </legend>
-            </fieldset>
-        </form>
-    </div>
-
-    <!-- Footer avec infos personnelles -->
-    <footer class="text-center">
-        <span> Mail : jeanmarin.monnierpro@gmail.com</span>
-        <span> Téléphone : 07 82 02 75 49</span>
-        <a href ="https://www.linkedin.com/in/jean-marin-monnier-5481811b9/" target="_blank"><img src="img/icon_linkedin.png" alt="Icone Linkedin"> </a>
-    </footer>
-</body>
+        <!-- Footer avec infos personnelles -->
+        <footer class="text-center">
+            <span> Mail : jeanmarin.monnierpro@gmail.com</span>
+            <span> Téléphone : 07 82 02 75 49</span>
+            <a href ="https://www.linkedin.com/in/jean-marin-monnier-5481811b9/" target="_blank"><img src="img/icon_linkedin.png" alt="Icone Linkedin"> </a>
+        </footer>
+    </body>
 </html>
