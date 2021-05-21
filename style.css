@@ -1,4 +1,7 @@
+/* Import police d'écriture */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
+
 html{
     scroll-behavior:smooth;
 }
@@ -13,6 +16,21 @@ body {
     width : 100%;
 }
 
+
+/* Modifications communes à plusieurs parties */
+li h1,ul a, .description, .contact,h2, .intro, .skills, legend, footer {
+    color: rgb(216, 216, 216)
+}
+.p-space{
+    margin-top: 75px !important;
+}
+.top-space{
+    margin-top: 10%;
+}
+
+
+
+/* Navbar */
 .container{
     padding: 0;
     margin: auto;
@@ -28,10 +46,6 @@ body {
 nav, ul{
     display: flex;
     justify-content: space-between;
-}
-
-li h1,ul a, .description, .contact,h2, .intro, .skills, legend, footer {
-    color: rgb(216, 216, 216)
 }
 
 li {
@@ -53,21 +67,31 @@ a{
     justify-content: space-between;
     width : 100%
 }
+
+
+
+/* Intro */
 .intro_img{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 .intro{
     margin-top: 8%;
     font-size: 2rem;
     word-spacing: 5px;
     letter-spacing: 2px;
-    color: white;
-    
+    color: white;   
 }
 
+.JM{
+    font-size: 2.5rem;
+    color: rgb(156, 82, 82);
+}
+
+
+
+/* Description + photo profil */
 .description{
     width: 80%;
     margin-left: 10%;
@@ -79,14 +103,6 @@ a{
     padding: 30px;
 
 }
-.top-space{
-    margin-top: 10%;
-}
-
-.JM{
-    font-size: 2.5rem;
-    color: rgb(156, 82, 82);
-}
 
 .profile-image img{
     width: 25vw;
@@ -94,10 +110,9 @@ a{
     margin-top: 20%;
 }
 
-.p-space{
-    margin-top: 75px !important;
-}
 
+
+/* Compétences */
 .skills  { 
     width : 30%;
     padding : 20px;  
@@ -145,6 +160,9 @@ a{
     width : 50%;
 }
 
+
+
+/* Projets réalisés */
 .works{
     color: rgb(216, 216, 216);
     display: flex;
@@ -167,6 +185,10 @@ a{
     margin-right: 25px;
 }
 
+
+
+
+/* Footer */
 footer{
     background-color: #1f1f1f;
     padding : 20px;
@@ -184,6 +206,10 @@ footer img{
     height:auto;
 }
 
+
+
+
+/* Media queries */
 @media(max-width:1118px) {
     a{
         font-size: 1rem;
