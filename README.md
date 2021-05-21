@@ -2,9 +2,7 @@
 
 ### Année académique 2020-2021
 ### Campus Contest
-### B1 Swicth IT 
-
- 
+#### B1 Swicth IT 
 #### 20 et 21 mai 2021
   
 ## 1 Mission 
@@ -51,9 +49,7 @@ Dont :
 
 CSS /6
 Dont : 
-- Validation du W3C sans erreur /2 
-
-2 
+- Validation du W3C sans erreur /2  
 - Utilisation de flexbox /1
 - Utilisation des positionnements relatifs-absolus /1
 - Utilisation d'une animation de type "transition" /1
