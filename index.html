@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href = "style.css" rel = stylesheet>
     <title> Portfolio Jean-Marin </title>
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="container">
         <div class="navbar">
             <ul class="parent-tabs">
@@ -27,7 +29,7 @@
         
         
 
-
+    <!-- Texte d'introduction -->
     <div class="intro_img">
         <div class="intro">
             <span class="text hello">Bonjour,</span> <br>
@@ -37,12 +39,12 @@
         </div>
 
         <div class="profile-image">
-            <img src="img/photo.png" alt="">
+            <img src="img/photo.png" alt="photo de profil">    <!-- Photo de profil à modifier par la sienne-->
         </div>
     </div>
 
 
-           
+    <!-- Description de la personne -->
     <div class="description text-center" id="description">
         <h2 class="text-center top-space">Qui suis-je ? </h2>
         <p class="p-space"></p>
@@ -53,7 +55,7 @@
         </div>
     </div>
         
-
+    <!-- Présentation des compétences -->
     <h2 class="text-center top-space" id="skills">Compétences</h2>
     <div class="skills mx-auto">
         <p class="p-space"> Python</p>
@@ -78,22 +80,22 @@
         </div>
     </div>
 
-    
+    <!-- Présentation des projets réalisés -->
     <h2 class="text-center top-space" id="works">Travaux</h2>
     <p class="p-space"></p>
     <div class="works"> 
         <div class="work">
-            <img src="img/gatlinger_logo.png" alt="image association Gatlinger">
+            <a href = "index.html" target="_blank"><img src="img/gatlinger_logo.png" alt="image association Gatlinger"> </a>  <!-- Il faut remplacer "index.html" par les lien vers les projets -->
         </div>
         <div class="work">
-            <img src="img/1083Logo.png" alt="image logo 1083">
+            <a href = "index.html" target="_blank"><img src="img/1083Logo.png" alt="image logo 1083"> </a>
         </div>
         <div class="work">
-            <img src="img/LVLogo.jpg" alt="image Louis Vuitton">
+            <a href = "index.html" target="_blank"> <img/LVLogo.jpg" alt="image Louis Vuitton"> </a>
         </div>
     </div>
     
-
+    <!-- Formulaire de contact -->
     <div class="contact top-space" id="contact">
         <form action="index.html" method="POST" class="text-center w-25 mx-auto">
             <fieldset>
@@ -108,6 +110,7 @@
         </form>
     </div>
 
+    <!-- Footer avec infos personnelles -->
     <footer class="text-center">
         <span> Mail : jeanmarin.monnierpro@gmail.com</span>
         <span> Téléphone : 07 82 02 75 49</span>
