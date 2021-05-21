@@ -141,12 +141,12 @@ a{
     
 }
 
-.python {
+.python {                                /* Il faut modifier le width en fonction du pourcentage attribué dans la page html */
     width : 70%;
 }
 
 .html {
-    width : 70%;
+    width : 70%;            
 }
 
 .java {
