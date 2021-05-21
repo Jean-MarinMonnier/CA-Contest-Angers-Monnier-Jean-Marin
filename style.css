@@ -20,24 +20,23 @@ body {
 }
 
 .navbar {
-    padding : auto;
     width: 100%;
     background-color: #1f1f1f;
     font-size: 2rem;
 }
 
-nav, ul {
+nav, ul{
     display: flex;
     justify-content: space-between;
 }
 
-li h1,ul a, .description, .contact, .intro, .skills, legend, footer {
+li h1,ul a, .description, .contact,h2, .intro, .skills, legend, footer {
     color: rgb(216, 216, 216)
 }
 
 li {
     list-style: none;
-    margin-left: 30px; 
+    margin-left: 25px;
 }
 ul{
     width: 90%;
@@ -52,6 +51,7 @@ a{
 .tabs{
     display: flex;
     justify-content: space-between;
+    width : 100%
 }
 .intro_img{
     display: flex;
@@ -65,12 +65,19 @@ a{
     word-spacing: 5px;
     letter-spacing: 2px;
     color: white;
+    
 }
 
 .description{
     width: 80%;
     margin-left: 10%;
     font-size: 1rem;
+}
+.description .border-desc{
+    z-index: 1;
+    box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
+    padding: 30px;
+
 }
 .top-space{
     margin-top: 10%;
@@ -83,8 +90,8 @@ a{
 
 .profile-image img{
     width: 25vw;
-    height: auto;
-    margin-top: 25%;
+    height: 25vw;
+    margin-top: 20%;
 }
 
 .p-space{
@@ -170,7 +177,11 @@ footer{
 footer span{
     margin-left: 50px;
     margin-right: 50px;
-    
+}
+footer img{
+    margin-left: 50px;
+    width : 32px;
+    height:auto;
 }
 
 @media(max-width:1118px) {
@@ -204,7 +215,10 @@ footer span{
     }
 }
 
-@media(max-width:669px){
+@media(max-width:695px){
+    .portfolio{
+        margin-left:0;
+    }
     a{
         font-size: .8rem;
     }
